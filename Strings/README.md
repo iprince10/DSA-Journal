@@ -51,4 +51,10 @@ This section contains all the strings problems I solve, along with short explana
  - Return s1.substring(0,idx).
  
 ## 📌 Problem 4:
-**LeetCode** - Will be added soon...
+**LeetCode 3754** -Concatenate non-zero digits and multiply by sum-i(https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i)
+**Approach**
+- Iterate over each character digit of n.
+- Skip '0' digits.
+- Build the compressed number x by appending non-zero digits.
+- Accumulate digit sum s.
+- Return x * s.
